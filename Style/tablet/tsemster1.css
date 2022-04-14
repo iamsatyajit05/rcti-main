@@ -1,0 +1,50 @@
+@media screen and (max-width: 425px){
+.study-material {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+    /* background-color: #2196F3; */
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.study-material>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.heading-sm {
+    padding-left: 5px;
+    color: rgb(238, 94, 33);
+    border-left: 3px solid rgb(238, 94, 33);
+}
+
+.sub-cp {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    /* background-color: #2196F3; */
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.sub-cp>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.sub-heading {
+    margin: 10px 0 0 0px;
+    padding-left: 5px;
+    color: rgb(71, 134, 216);
+    border-left: 3px solid rgb(71, 134, 216);
+}
+
+.list-unit {
+    margin: 10px 0 0 40px;
+}
+    }

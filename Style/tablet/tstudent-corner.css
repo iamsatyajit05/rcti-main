@@ -1,0 +1,37 @@
+@media screen and (max-width: 425px){
+
+    .item-student-corner {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 20px;
+    }
+    
+    .item-student-corner>div {
+        text-align: left;
+        padding: 10px 0;
+        font-size: 20px;
+    }
+
+    .heading-sc {
+    font-size: 25px;
+    text-align: left;    
+    /* color: rgb(238, 94, 33); */
+    border-left: 3px solid rgb(238, 94, 33);
+    padding-left: 5px;
+    margin: 10px 0px 0 20px;
+}
+
+.list-impo-link {
+    margin-left: 50px;
+    margin-top: 20px;
+    color: rgb(71, 134, 216);
+    font-size: 20px;
+}
+
+.sublist-impo-link {
+    margin: 5px 0px 5px 60px;
+    color: black;
+    font-size: 15px;
+}
+
+}
